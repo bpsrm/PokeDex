@@ -28,7 +28,9 @@ export default function PokemonList({ pokemon }) {
         className="pokemon-source"
       />
       <div className="pokemon-info">
-        <span style={{ fontSize: "12px" }}>N°{pokemonBucket.id}</span>
+        <span style={{ fontSize: "12px", color: "var(--dark)" }}>
+          N°{pokemonBucket.id}
+        </span>
         <h5 className="text-capitalize">{pokemon.name}</h5>
       </div>
       <div className="ability-box">

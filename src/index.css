@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 :root {
-  --gray: #eeedeb;
+  --gray: #eee;
   --white: #fefefe;
   --red: #ee1515;
+  --sky: #f6f8fc;
+  --dark: #8f9396;
 }
 
 html {
@@ -12,6 +16,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-settings {
@@ -89,7 +94,7 @@ html {
 
 .types-box {
   padding: 5px 15px;
-  border-radius: 50px;
+  border-radius: 5px;
   margin: 0 5px;
   text-transform: capitalize;
   font-weight: 600;
@@ -103,4 +108,46 @@ html {
 .pokemon-info {
   text-align: center;
   margin: 20px 0;
+}
+
+.proportion-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: var(--sky);
+  border-radius: 50px;
+}
+
+.proportion-box h1,
+.proportion-box h2,
+.proportion-box h3,
+.proportion-box h4,
+.proportion-box h5,
+.proportion-box h6,
+.proportion-box p {
+  margin-bottom: 0;
+}
+
+.stats-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--sky);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.stats-box span {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: var(--gray);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
 }

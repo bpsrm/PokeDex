@@ -41,3 +41,13 @@ export const bgColors = {
   fairy: "rgb(255, 172, 255, 0.3)",
   shadow: "rgb(14, 46, 76, 0.3)",
 };
+
+export const statColors = {
+  hp: "#FF994D",
+  attack: "#D04848",
+  defense: "#9195F6",
+  "special-attack": "#FB88B4",
+  "special-defense": "#BC7AF9",
+  speed: "#74E291",
+  total: "#B19470",
+};

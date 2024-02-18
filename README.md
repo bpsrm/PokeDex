@@ -1,13 +1,16 @@
-# POKEAPI
+# PokeDex with POKEAPI
 
-### VITE + REACT
+### VITE + REACT Made for practice
 
 ##### POKEAPI ROUTES
 
-###### Get pokemons with 12 pokemon
+- API Link: https://pokeapi.co/api/v2/pokemon
 
-- https://pokeapi.co/api/v2/pokemon/?offset=0&limit=12
+###### Get pokemon with 12 pokemon information
 
-###### Get pokemon with single pokemon
+- Example: https://pokeapi.co/api/v2/pokemon/?offset=0&limit=12
+
+###### Get pokemon information
 
 - https://pokeapi.co/api/v2/pokemon/{pokemon_name}
+- Example: https://pokeapi.co/api/v2/pokemon/pikachu
