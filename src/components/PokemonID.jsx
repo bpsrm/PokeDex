@@ -187,9 +187,9 @@ export default function PokemonID({ pokemon }) {
                       </p>
                     </div>
                   </Row>
-                  <Row className="mt-3">
+                  {/* <Row className="mt-3">
                     <h4 className="text-center">Evolution</h4>
-                  </Row>
+                  </Row> */}
                 </div>
               )}
             </>
