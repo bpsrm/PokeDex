@@ -13,9 +13,6 @@ PokemonID.propTypes = {
 };
 
 export default function PokemonID({ pokemon }) {
-  // const [pokemonID, setPokemonID] = useState("");
-  // const [evolution, setEvolution] = useState();
-  // const [formEvolution, setFormEvolution] = useState([]);
   const [bucket, setBucket] = useState([]);
   const [types, setTypes] = useState();
   const [abilities, setAbilities] = useState([]);
