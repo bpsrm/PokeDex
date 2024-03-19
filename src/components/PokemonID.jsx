@@ -32,8 +32,9 @@ export default function PokemonID({ pokemon }) {
     const fetchPokemonData = async () => {
       try {
         setIsLoading(true);
+        const _pokemon = pokemon.toLowerCase();
         const response = await axios.get(
-          `https://pokeapi.co/api/v2/pokemon/${pokemon}`
+          `https://pokeapi.co/api/v2/pokemon/${_pokemon}`
         );
         if (response.status === 200) {
           // console.log(response);
