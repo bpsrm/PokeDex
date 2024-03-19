@@ -56,16 +56,7 @@ export default function PokemonID({ pokemon }) {
       }
     };
 
-    const fetchEvolution = async () => {
-      // try {
-      //   const response = await axios.get("");
-      // } catch (err) {
-      //   console.log("error fetching pokemon evolutions: " + err);
-      // }
-    };
-
     fetchPokemonData();
-    fetchEvolution();
   }, [pokemon]);
 
   const pokemonCard = {
